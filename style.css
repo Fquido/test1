@@ -1,0 +1,520 @@
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Poprawa Strony */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Przyciemnienie na nagłówku */
+.fade {
+    width: 700px;
+    height: 691px;
+    z-index: auto;
+    top: 0px;
+    background: linear-gradient(90deg, #000000 70%, #fff0 100%);
+    position: absolute;
+    left: 0px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Filmy zakładki */
+.collection {
+    position: relative;
+    top: 720px;
+    display: grid;
+}
+
+.collection a {
+    font-size: 0px;
+ }
+
+.collection li:hover {
+    opacity: 0.6;
+}
+
+.collection ul {
+    margin: auto;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}
+
+.collection h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    margin: auto;
+    font-style: normal;
+ }
+
+.collection li {
+    width: 341px;
+    height: 192px;
+    float: left;
+    margin: 5px;
+}
+
+.collection img {
+    border-radius: 5px;
+    width: 341px;
+    height: 192px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Przycisk play na nagłówku */
+.play {
+    color: #ffffff;
+    transition: color 1ms;
+    transition: opacity 700ms;
+    background-color: #000000;
+    border-radius: 50px;
+    font-size: 100px;
+    position: absolute;
+    right: 37%;
+    height: 100px;
+    top: 290px;
+}
+
+.play:hover {
+    transition: color 1ms;
+    color: #1f7452;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Zdjecie na nagłówku */
+#zdj img {
+    width: 1387px;
+    position: absolute;
+    right: 0px;
+    height: 690px;
+    display: flex;
+    top: 0px;
+}
+
+#zdj {
+    transition: opacity 700ms;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Video na nagłówku */
+#video {
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 690px;
+    width: 1387px;
+    right: 0px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Nagłówek */
+.naglowek h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: -0.1rem;
+    line-height: 2.9rem;
+    padding: 15px 0;
+    font-style: bold;
+}
+
+.naglowek p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    width: 260px;
+    margin: 0.3rem 0 1rem 0;
+    font-size: 1.1rem;
+}
+
+.naglowek {
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    margin-left: 5%;
+    margin-bottom: 3.5rem;
+    top: 200px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Nawigacja */
+.pulpit {
+    position: relative;
+    text-align: center;
+    padding: 41vh 0;
+}
+
+.buttoninfo {
+    position: absolute;
+    display: inline;
+    left: 0px;
+    margin-left: 0%;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 3.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    background-color: #ffffff;
+    transition: background-color 500ms;
+    color: #000000;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.buttoninfo:hover {
+    transition: background-color 500ms;
+    background-color: #1f7452;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Nawigacja */
+li img {
+    width: 30px;
+}
+
+.logo {
+    position: absolute;
+    padding-left: 14px;
+    top: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    transition: color 1ms;
+    font-size: 30px;
+    padding: 0.5rem 0;
+    display: inline-block;
+    transition: 100ms ease-in 0s;
+}
+
+nav a:hover {
+    transition: color 1ms;
+    color: #1f7452;
+}
+
+nav {
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #ffffff78;
+    box-sizing: border-box;
+    z-index: 3;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Zmiana kursoru na kliknięcie */
+button,
+li,
+.play {
+    cursor: pointer;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Poprawa rozjerzdzania się tekstu */
+h2,
+h3,
+p,
+.naglowek,
+main {
+    transition: 25ms;
+}
+
+main {
+    margin-left: 60px;
+    position: relative;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Tło strony */
+body {
+    background-color: #000000;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Blokada pobiereania obrazu */
+img {
+    pointer-events: none;
+    -webkit-touch-callout: none;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* yłączenie podświetlania linków i podkreślania*/
+a { 
+    color: inherit;
+    text-decoration:none;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Pasek Przesuwania */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #40d89b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #40d89b76;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/* Poprawa Jakości telefonu mniejszych ekramów */
+@media only screen and (min-width: 1815px) {
+    .collection ul {
+        width: 1757px;
+    }
+    .collection h3 {
+        width: 1737px;
+     }
+}
+
+@media only screen and (max-width: 1812px) {
+    .collection ul {
+        width: 1405px;
+    }
+    .collection h3 {
+        width: 1385px;
+     }
+}
+
+@media only screen and (max-width: 1464px) {
+    .collection ul {
+        width: 1054px;
+    }
+    .collection h3 {
+        width: 1034px;
+     }
+}
+
+@media only screen and (max-width: 1116px) {
+    .collection ul {
+        width: 703px;
+    }
+    .collection h3 {
+        width: 683px;
+     }
+}
+
+@media only screen and (max-width: 768px) {
+    .collection ul {
+        width: 352px;
+    }
+    .collection h3 {
+        width: 330px;
+     }
+}
+
+@media only screen and (max-width: 416px) {
+    .collection ul {
+        width: 272px;
+    }
+    .collection h3 {
+        width: 230px;
+     }
+}
+
+@media only screen and (max-width: 344px) {
+    .collection ul {
+        width: 242px;
+    }
+    .collection h3 {
+        width: 210px;
+     }
+}
+
+@media only screen and (max-width: 414px) {
+    .collection li {
+        float: left;
+        width: 266px;
+        height: 137px;
+        margin: 5px;
+    }
+    .collection img {
+        border-radius: 5px;
+        width: 266px;
+        height: 137px;
+    }
+}
+
+@media only screen and (max-width: 344px) {
+    .collection li {
+        float: left;
+        width: 236px;
+        height: 107px;
+        margin: 5px;
+    }
+    .collection img {
+        border-radius: 5px;
+        width: 236px;
+        height: 107px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .naglowek h2 {
+        font-size: 25px;
+        line-height: 1.6rem;
+        padding: 12px 0;
+        width: 190px;
+    }
+
+    .naglowek p {
+        line-height: 1.2rem;
+        padding: 0px 0;
+        width: 180px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 579px) {
+    .buttoninfo {
+        top: 245px;
+    }
+}
+
+@media only screen and (max-width: 379px) {
+    .buttoninfo {
+        top: 294px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .fade {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .fade {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .play {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1378px) {
+    .fade {
+        opacity: 0.6;
+    }
+    .play {
+        opacity: 0.0;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .fade {
+        width: 880px;
+    }
+    .play {
+        right: 35%;
+    }
+}
+
+@media only screen and (min-width: 2052px) {
+    .fade {
+        width: 980px;
+    }
+    .play {
+        right: 32%;
+    }
+}
+
+@media only screen and (min-width: 2124px) {
+    .fade {
+        width: 1000px;
+    }
+    .play {
+        right: 32%;
+    }
+}
+
+@media only screen and (min-width: 2140px) {
+    .fade {
+        width: 1200px;
+    }
+    .play {
+        right: 30%;
+    }
+}
+
+@media only screen and (min-width: 2284px) {
+    .fade {
+        width: 1350px;
+    }
+    .play {
+        right: 29%;
+    }
+}
+
+@media only screen and (min-width: 2416px) {
+    .play {
+        display: none;
+    }
+    .plau {
+        display: none;
+    }
+}
+/*-----------------------------------------------------------------------------------------------------------*/
